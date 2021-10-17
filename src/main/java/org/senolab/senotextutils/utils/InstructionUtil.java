@@ -23,6 +23,17 @@ public class InstructionUtil {
                    It decode a-url-encoded string and print the output
                 5) siemdecode
                    It decode encoded-text-message in SIEM JSON response   
+                
+                Sample usage:
+                1) To see this instruction / help, execute it without any argument:
+                $./senotextutils
+                
+                2) To encode a text 'hello' in Base64
+                $./senotextutils base64encode "hello"
+                
+                3) To decode a base64-encoded text 'aGVsbG8='
+                $./senotextutils base64decode "aGVsbG8="
+             
                                 
                 If encounter any issues, please submit it under this repository 'issues'.            
                 """;

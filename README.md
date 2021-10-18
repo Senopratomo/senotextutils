@@ -36,4 +36,7 @@
     </li>
 </ul>
 
+<h3>Download</h3>
+<p>Download the latest release for your OS <a href="https://github.com/Senopratomo/senotextutils/releases">here</a></p>
+
 <p>If encounter any issues, please submit it under this repository 'issues'</p>

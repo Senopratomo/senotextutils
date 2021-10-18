@@ -33,7 +33,15 @@ public class InstructionUtil {
                 
                 3) To decode a base64-encoded text 'aGVsbG8='
                 $./senotextutils base64decode "aGVsbG8="
-             
+                
+                4) To url-encode a text '==++'
+                $./senotextutils urlencode "==++"
+                
+                5) To url-decode an encoded text "%3D%3D%3B%3B"
+                $./senotextutils urldecode "%3D%3D%3B%3B"
+                
+                6) To decode one of rules values from SIEM JSON response
+                $./senotextutils siemdecode "NjAwNjU5NTM%3d%3bQk9ULTYxNzI2MjQz"            
                                 
                 If encounter any issues, please submit it under this repository 'issues'.            
                 """;

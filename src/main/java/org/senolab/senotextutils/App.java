@@ -26,6 +26,9 @@ public class App {
                         System.out.println(x);
                     }
                     break;
+                case "siemencode":
+                    System.out.println(SIEMMessageUtil.encodeSiemRuleMessage(args[1]));
+                    break;
                 default:
                     System.out.println(InstructionUtil.printInstruction());
             }

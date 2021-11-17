@@ -4,7 +4,7 @@ public class InstructionUtil {
 
     public static String printInstruction() {
         return """
-                SenoTextUtils v0.1.0
+                SenoTextUtils v0.3.0
                                 
                 SenoTextUtils is a simple CLI tool that help with string text manipulation, encoding, decoding from different
                 format.
@@ -22,7 +22,9 @@ public class InstructionUtil {
                 4) urldecode
                    It decode a-url-encoded string and print the output
                 5) siemdecode
-                   It decode encoded-text-message in SIEM JSON response   
+                   It decode encoded-text-message in SIEM JSON response
+                6) siemencode
+                   It encode SIEM rule id to the format that SIEM API use to encode 'rules'      
                 
                 Sample usage:
                 1) To see this instruction / help, execute it without any argument:
@@ -42,6 +44,9 @@ public class InstructionUtil {
                 
                 6) To decode one of rules values from SIEM JSON response
                 $./senotextutils siemdecode "NjAwNjU5NTM%3d%3bQk9ULTYxNzI2MjQz"            
+                
+                7) To encode one rule values to SIEM-encoded format
+                $./senotextutils siemencode "699991"
                                 
                 If encounter any issues, please submit it under this repository 'issues'.            
                 """;

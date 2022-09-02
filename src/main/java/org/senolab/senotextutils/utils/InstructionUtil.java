@@ -4,7 +4,7 @@ public class InstructionUtil {
 
     public static String printInstruction() {
         return """
-                SenoTextUtils v0.3.0
+                SenoTextUtils v0.4.0
                                 
                 SenoTextUtils is a simple CLI tool that help with string text manipulation, encoding, decoding from different
                 format.
@@ -17,10 +17,12 @@ public class InstructionUtil {
                    It encode a string in Base64 and print the Base64-encoded string input
                 2) base64decode
                    It decode a Base64 string and print the output
+                   The second argument of this command also accept full path of a text file
+                   which contain the base64-encoded string
                 3) urlencode
                    It encode a string and url-encode special characters
                 4) urldecode
-                   It decode a-url-encoded string and print the output
+                   It decode a-url-encoded string and print the output 
                 5) siemdecode
                    It decode encoded-text-message in SIEM JSON response
                 6) siemencode
